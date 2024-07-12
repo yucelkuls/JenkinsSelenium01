@@ -5,6 +5,7 @@ pipeline {
         stage('Test Pipeline Maven') {
             steps {
                 bat 'mvn clean test'
+                echo 'First change'
             }
         }
     }
